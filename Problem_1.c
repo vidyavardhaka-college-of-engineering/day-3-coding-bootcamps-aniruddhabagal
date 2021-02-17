@@ -15,7 +15,14 @@ int main()
 
     //Write your code here
        
-       
+       int sum = 0;
+
+       for(int i=0; i<=N; ++i){
+
+         sum += i;
+       }
+
+       printf("The Sum is %d\n", sum);
        
        
        
