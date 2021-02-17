@@ -12,7 +12,26 @@ int main()
     scanf("%d", &n);
 
     //Write your code here
-    
+    int a = 0;
+    int b =1;
+
+    printf("The Fibonacci Series is \n");
+
+    printf("  %d  %d", a,b);
+
+    int i = 2;
+
+
+    while(i <n){
+
+        int c = b+a;
+        a = b;
+        b = c;
+        i++;
+
+        printf("  %d", c);
+
+    }
 
     return 0;
 }
