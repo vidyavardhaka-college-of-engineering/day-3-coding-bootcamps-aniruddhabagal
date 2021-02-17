@@ -6,6 +6,8 @@
 int main()
 {
   	int n;
+    
+    printf("Enter the limit \n");
 
   	scanf("%d", &n);
 
